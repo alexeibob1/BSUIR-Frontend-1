@@ -32,7 +32,7 @@ button {
     max-width: 1250px;
 }
 
-header {
+#header {
     margin: 0;
     padding: 0;
     background-image: url("img/navigation-background.png"), 
@@ -145,7 +145,7 @@ header {
     background-color: rgba(214, 209, 188, 0.28);
 }
 
-.about {
+#about {
     background-image: url(img/about-background.png);
     background-repeat: no-repeat;
     background-size: 100%; 
