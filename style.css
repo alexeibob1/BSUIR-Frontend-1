@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Yeseva One;
+    src: url(fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gentium Book Basic;
+    src: url(fonts/GentiumBookBasic-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.review {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+    background-image: url(img/sectionbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 758px;
+    
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+    
+}
+
+.preview__picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.infobox {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+    background-image: url(img/textbg.png);
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 557px;
+    margin: 0 auto;
+}
+
+.guest__reviews {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    padding-top: 82px;
+    text-align: center;
+}
