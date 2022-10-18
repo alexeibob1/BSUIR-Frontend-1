@@ -395,23 +395,27 @@ button {
     font-family: 'Yeseva One', cursive;
     font-size: 36px;
     font-weight: normal;
+    line-height: 0.9;
     color: #CC9900;
     margin: 0;
     padding-top: 100px;
+    padding-right: 10px;
     text-align: center;
 }
 
-.decoration__about {
+.reservations__divider {
     display: block;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 19px;
+    padding-right: 10px;
 }
 
 .reservations__text {
     font-family: 'Lato';
     font-size: 16px;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.5;
+    padding-top: 4px;
     margin: 0;
 }
 
@@ -426,9 +430,9 @@ button {
 
 .reservations__form {
     display: flex;
-    padding-top: 28px;
+    padding-top: 37px;
     justify-content: space-between;
-    row-gap: 33px;
+    row-gap: 29px;
     flex-wrap: wrap;
 }
 
@@ -440,18 +444,18 @@ button {
 .form__text {
     font-family: 'Open Sans Bold';
     font-size: 14px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     color: #CC9900;
 }
 
 .reservations__input {
     font-family: 'Open Sans Italic';
     font-size: 16px;
-    padding-left: 13px;
+    padding-left: 14px;
     padding-right: 11px;
     border: 1px solid #C8C6C6;
-    width: 176px;
-    height: 34px;
+    width: 174px;
+    height: 32px;
     outline: none;
 }
 
