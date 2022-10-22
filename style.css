@@ -572,6 +572,55 @@ button {
     border: 1px solid #CC9900;;
 }
 
+.reservations__date {
+    background-image: url(img/calendar-icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 175px;
+    font-family: 'Open Sans Italic';
+    font-size: 16px;
+    padding-left: 14px;
+    padding-right: 11px;
+    border: 1px solid #C8C6C6;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 174px;
+    height: 32px;
+    outline: none;
+}
+
+.reservations__date:focus {
+    border: 1px solid #CC9900;;
+}
+
+.reservations__select {
+    font-family: 'Open Sans Italic';
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid #C8C6C6;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 201px;
+    height: 34px;
+    outline: none;
+    background-image: url(img/arrow-icon.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 176px;
+}
+
+.reservations__select:focus {
+    border: 1px solid #CC9900;;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
 .reservations__button {
     font-family: 'Open Sans';
     font-size: 16px;

@@ -427,13 +427,19 @@
                         <h3 class="form__text">
                             Date
                         </h3>
-                        <input class="reservations__input" type="date" onfocus = "(this.type = 'date')" required>
+                        <input class="reservations__date" type="date" required>
                     </div>     
                     <div class="input__container">
                         <h3 class="form__text">
                             Party number
                         </h3>
-                        <input class="reservations__input" placeholder="party number" required>
+                        <!-- <input class="reservations__input" placeholder="party number" required> -->
+                        <select class="reservations__select" required>
+                            <option value="1s">151001</option>
+                            <option value="2">151002</option>
+                            <option value="3">151003</option>
+                            <option value="4">151004</option>
+                        </select>
                     </div>          
                     <button class="reservations__button">
                         Book now!
