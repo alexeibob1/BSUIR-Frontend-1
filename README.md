@@ -7,4 +7,4 @@
 
 Полная история commit-ов находится в ветке master
 
-Ссылка для просмотра страницы: (https://alexeibob1.github.io/BSUIR-Frontend-1/#reservations)
+Ссылка для просмотра страницы: (https://alexeibob1.github.io/BSUIR-Frontend-1/)
