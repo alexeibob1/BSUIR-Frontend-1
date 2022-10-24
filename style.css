@@ -638,31 +638,24 @@ input[type=date]::-webkit-calendar-picker-indicator {
     background-color: #191919;
 }
 
+.footer .container {
+    padding-top: 55px;
+    padding-bottom: 65px;
+    padding-left: 75px;
+    display: flex;
+    column-gap: 100px;
+}
+
 .about__footer {
     width: 370px;
-    /* margin-right: 100px; */
 }
 
 .time__footer {
     width: 230px;
-    /* margin-right: 170px; */
 }
 
 .place__footer {
     width: 230px;
-}
-
-.wrapper__footer {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    column-gap: 50px;
-    padding-top: 56px;
-    padding-bottom: 65px;
-    
-    /* padding-left: 41px; */
-    width: 100%;
-    /* max-width: 1200px; */
 }
 
 .footer-item {
@@ -696,7 +689,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .footer-cards {
     display: inline;
     margin-top: 50px;
-    padding-left: 15px;
 }
 
 .footer-cards .fa-brands {
@@ -707,7 +699,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .footer-links {
     display: inline;
     margin-top: 50px;
-    padding-left: 15px;
 }
 
 .footer-links .fa-brands {
