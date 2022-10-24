@@ -65,7 +65,6 @@ button {
     background-repeat: no-repeat;
     background-size: 100%; 
     width: 100%;
-    height: 100%;
 }
 
 .header .container {
@@ -191,17 +190,20 @@ button {
     background-repeat: no-repeat;
     background-size: 100%; 
     width: 100%;
-    height: 100%;
+}
+
+.about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
 
 .textarea__about {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    padding-left: 114px;
-    padding-top: 100px;
     width: 420px;
     float: left;
 }
@@ -211,6 +213,7 @@ button {
     font-weight: normal;
     font-size: 36px;
     color: #cc9900;
+    margin-bottom: 15px;
 }
 
 .main-text__about {
@@ -222,19 +225,13 @@ button {
     font-family: Lato, sans-serif;
     font-size: 16px;
     color: #4c4c4c;
-    padding-top: 27px;
+    margin-top: 25px; 
+    margin-bottom: 50px;
     line-height: 1.45;
 }
 
-.cook-pic__about {
-    padding-top: 52px;
-    padding-left: 71px;
-}
-
 .plate-pic__about {
-    padding-top: 55px;
-    padding-left: 30px;
-    padding-bottom: 26px;
+   margin-left: 30px;
 }
 
 /* finish of ABOUT section description */
@@ -246,17 +243,19 @@ button {
     background-repeat: no-repeat;
     background-size: 100%; 
     width: 100%;
-    height: 758px;
+}
+
+.ingredients .container {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    padding-right: 75px;
 }
 
 .wrapper__ingredients {
-    position: relative;
-    margin-left: 640px;
-    top: 100px;
-    bottom: 100px;
-    width: 570px;
-
-    background-color: rgba(0, 0, 0, 0.5); 
+    margin-left: auto;
+    width: 430px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 70px;
 }
 
 .textarea__ingredients {
@@ -264,12 +263,6 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    width: 430px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 75px;
-    margin: 0;
 }
 
 .textarea__ingredients h2 {
@@ -280,25 +273,19 @@ button {
 }
 
 .divider {
-    margin: 0 auto;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .main-text__ingredients {
     color: white;
+    margin-bottom: 0;
 }
 
 .products__ingredients {
-    padding-top: 71px;
-    padding-bottom: 73px;
-}
-
-.products__ingredients img:first-child {
-    padding-right: 27px;
-}
-
-.products__ingredients img:last-child {
-    padding-left: 27px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+    margin-top: 70px;
 }
 
 /* finish of INGREDIENTS section description */
