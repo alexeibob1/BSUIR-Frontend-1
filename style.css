@@ -647,12 +647,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .about__footer {
     width: 370px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 .time__footer {
     width: 230px;
-    margin-right: 170px;
+    /* margin-right: 170px; */
 }
 
 .place__footer {
@@ -661,12 +661,15 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .wrapper__footer {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    column-gap: 50px;
     padding-top: 56px;
     padding-bottom: 65px;
-    padding-left: 41px;
+    
+    /* padding-left: 41px; */
     width: 100%;
-    max-width: 1100px;
+    /* max-width: 1200px; */
 }
 
 .footer-item {
@@ -693,7 +696,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .address-text {
-    font-family: 'Open Sans Bold';
+    font-family: 'Open Sans';
     font-style: normal;
 }
 
@@ -719,3 +722,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
     padding-right: 7px;
     color: white;
 }
+
+.newLine {
+    display: block;
+}
+
+.footer-text-OpenSansBold {
+    font-family: 'Open Sans Bold';
+}
+
