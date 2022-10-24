@@ -297,17 +297,15 @@ button {
     background-repeat: no-repeat;
     background-size: 100%; 
     width: 100%;
-    height: 994px;
 }
 
-.wrapper__menu {
+.menu .container {
     display: flex;
-    padding-left: 109px;
+    justify-content: center;
     padding-top: 100px;
-    justify-content: space-between;
+    padding-bottom: 95px;
+    column-gap: 170px;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 1030px;
 }
 
 .category__menu {
@@ -326,15 +324,19 @@ button {
 }
 
 .item__menu {
-    margin-bottom: 36px;
+    margin-bottom: 35px;
 }
 
 .first-item__menu {
-    margin-top: 29px;
+    margin-top: 30px;
 }
 
 .last-item__menu {
-    margin-bottom: 64px;
+    margin-bottom: 65px;
+}
+
+.finish-item {
+    margin-bottom: 0;
 }
 
 .item-parametres {
@@ -361,11 +363,6 @@ button {
     color: #c89f2d;
 }
 
-.main-dishes__menu {
-    position: relative;
-    top: -99px;
-}
-
 .special-item {
     border: 1px solid rgba(215, 187, 109, 0.4);
     padding: 10px;
@@ -378,12 +375,13 @@ button {
 }
 
 .special-text {
+    display: block;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #f8fafa;
     padding: 2px 13px;
-    margin-left: 384px;
+    margin-left: auto;
     width: 42px;
     background-color: #d8bc6d;
 }
