@@ -394,28 +394,26 @@ button {
 /* R e v i e w   p a r t */
 
 .review {
-    display: flex;
-    margin: 0 auto;
-    padding: 0;
     background-image: url(img/sectionbg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 758px;
 }
 
-.preview__picture {
-    display: block;
-    width: 100%;
-    height: 100%;
+.review .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .infobox {
     background-image: url(img/textbg.png);
     background-repeat: no-repeat;
-    width: 770px;
-    height: 557px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 85px 70px 100px 70px;
 }
 
 .guest__reviews {
@@ -424,46 +422,39 @@ button {
     font-weight: normal;
     line-height: 0.7;
     color: white;
-    margin: 0;
-    padding-top: 84px;
-    text-align: center;
 }
 
 .decoration {
-    display: block;
-    margin: 0 auto;
-    padding-top: 24px;
+    margin-top: 25px;
 }
 
 .quotes {
     float: left;
-    padding-left: 31px;
-    padding-top: 13px;
+    margin-top: 15px;
+    margin-left: -40px;
 }
 
 .review__container {
-    margin: 0 auto;
     text-align: center;
     color: white;
     width: 630px;
-    height: 402px;
 }
 
 .text__reviews {
     font-family: 'Gentium Book Basic', serif;
     font-size: 25px;
-    margin: 0;
-    padding-top: 18px;
+    margin-top: 20px;
     line-height: 45px; 
+    text-align: center;
 }
 
 .text__info {
+    display: block;
     font-family: 'Lato';
     font-size: 18px;
     text-align: center;
     color: white;
-    padding-top: 32px;
-    margin: 0;
+    margin-top: 30px;
     letter-spacing: 0px;
 }
 
@@ -474,47 +465,29 @@ button {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 710px;
 }
 
-#reservations .container {
+.reservations .container {
     display: flex;
-    /* justify-content: space-between; */
     padding-top: 100px;
-    padding-left: 40px;
-    margin: auto;
+    padding-left: 75px;
+    padding-bottom: 100px;
     max-width: 1250px;
 }
 
-#reservations .pic__container {
+.reservations .pic__container {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: 30px; */
-    float: left;
     width: 570px;
-    /* margin-top: 100px; */
-    /* margin-left: 40px; */
 }
 
-#reservations .info {
-    width: 430px;
-    height: 508px;
-    float: left;
-    /* margin-top: 100px; */
+.reservations .info {
+    max-width: 430px;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-/* .reservations__pic1 {
-    float: left;
-    padding-left: 40px;
-    padding-top: 100px;
-}
-
-.reservations__pic2 {
-    float: left;
-    padding-left: 30px;
-    padding-top: 100px;
-} */
 
 .reservations__promo {
     font-family: 'Yeseva One', cursive;
@@ -524,16 +497,12 @@ button {
     line-height: 0.9;
     color: #CC9900;
     margin: 0;
-    /* padding-top: 100px; */
-    /* padding-right: 10px; */
     text-align: center;
 }
 
 .reservations__divider {
     display: block;
-    margin: 0 auto;
-    padding-top: 19px;
-    /* padding-right: 10px; */
+    margin-top: 20px;
 }
 
 .reservations__text {
@@ -541,22 +510,16 @@ button {
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-    padding-top: 5px;
-    margin: 0;
+    margin-top: 10px;
 }
 
-.reservations__container {
-    float: left;
-    width: 100%;
-    max-width: 430px;
-    height: 404px;
-    /* padding-left: 100px; */
-    padding-top: 22px;
+.info .first-paragraph {
+    margin-top: 25px;
 }
 
 .reservations__form {
     display: flex;
-    padding-top: 38px;
+    margin-top: 40px;
     justify-content: space-between;
     row-gap: 29px;
     flex-wrap: wrap;
