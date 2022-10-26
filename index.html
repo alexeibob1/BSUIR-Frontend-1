@@ -401,8 +401,12 @@
     
     <section class="reservations" id="reservations">
         <div class="container">
-            <img src="img/reservations-p1.png" class="reservations__pic1" alt="meat">
-            <img src="img/reservations-p2.png" class="reservations__pic2" alt="dessert">
+            <div class="pic__container">
+                <img src="img/reservations-p1.png" alt="meat">
+                <img src="img/reservations-p2.png" alt="dessert">
+            </div>
+            
+            <div class="info">
             <h2 class="reservations__promo">
                 Just the right food
             </h2>
@@ -420,29 +424,29 @@
                 </p>
                 <form class="reservations__form" onsubmit="alert('Подтвердите отправку формы')">
                     <div class="input__container">
-                        <h3 class="form__text">
+                        <label class="form__text">
                             Name
-                        </h3>
+                        </label>
                         <input class="reservations__input" type="text" placeholder="your name *" required>
                     </div>
                     <div class="input__container">
-                        <h3 class="form__text">
-                            Name
-                        </h3>
+                        <label class="form__text">
+                            Email
+                        </label>
                         <input class="reservations__input" type="email" placeholder="your email *" required>
                     </div>     
                     <div class="input__container">
-                        <h3 class="form__text">
+                        <label class="form__text">
                             Date
-                        </h3>
+                        </label>
                         <input class="reservations__date" type="date" required>
                     </div>     
                     <div class="input__container">
-                        <h3 class="form__text">
+                        <label class="form__text">
                             Party number
-                        </h3>
+                        </label>
                         <select class="reservations__select" required>
-                            <option value="1s">151001</option>
+                            <option value="1">151001</option>
                             <option value="2">151002</option>
                             <option value="3">151003</option>
                             <option value="4">151004</option>
@@ -452,6 +456,7 @@
                         Book now!
                     </button>
                 </form>
+            </div>
             </div>
         </div>
     </section>
